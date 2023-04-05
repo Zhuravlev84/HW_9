@@ -1,0 +1,149 @@
+.footer {
+    background-color: #070f1d;
+}
+
+.conteiner-footer {
+    max-width: $site-width;
+    margin: 0 auto;
+    display: flex;
+}
+
+.coloumn-one {
+    margin-top: 48px;
+    background-color: #070f1d;
+    width: 261px;
+}
+
+.line-one {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.line-two {
+    margin-top: 33px;
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+}
+
+.fa-envelope {
+    font-size: 14px;
+    margin-right: 9px;
+}
+
+.line-three {
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    margin-top: 25px;
+}
+
+.fa-phone {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.line-four {
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 26px;
+    margin-bottom: 52px;
+}
+
+.fa-location-dot {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+
+.coloumn_two-line_one {
+    margin-top: 48px;
+    margin-left: 110px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.coloumn_two-line_two {
+    width: 261px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 33px;
+    color: #767b83;
+}
+
+.coloumn_three-line_one {
+    margin-top: 48px;
+    margin-left: 131px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.coloumn_three-line_two {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 131px;
+    margin-top: 33px;
+}
+
+.icons {
+    margin-left: 131px;
+    margin-top: 24px;
+    color: #9c9fa5;
+
+}
+
+.fa-image {
+    @include icon(19px, 24px)
+}
+
+.fa-camera-retro {
+    @include icon(19px, 24px)
+}
+
+.fa-mug-hot {
+    @include icon(19px, 24px)
+}
